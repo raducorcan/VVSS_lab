@@ -1,0 +1,8 @@
+2020-03-04 17:04:17 INFO  Main:38 - saved data reading
+2020-03-04 17:04:17 INFO  Main:43 - application start
+2020-03-04 17:04:18 INFO  Controller:75 - Main controller initializing
+2020-03-04 17:04:44 INFO  TaskInfoController:26 - task info window initializing
+2020-03-04 17:04:44 ERROR Controller:128 - error loading task-info.fxml
+2020-03-04 17:04:51 INFO  TaskInfoController:26 - task info window initializing
+2020-03-04 17:04:51 ERROR Controller:128 - error loading task-info.fxml
+2020-03-04 17:04:59 INFO  NewEditController:91 - new/edit window initializing
