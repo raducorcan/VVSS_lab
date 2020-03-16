@@ -90,11 +90,12 @@ public class Controller {
             editNewStage = new Stage();
             NewEditController.setCurrentStage(editNewStage);
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/new-edit-task.fxml"));
-            Parent root = loader.load();//getClass().getResource("/fxml/new-edit-task.fxml"));
+            Parent root = loader.load();
             NewEditController editCtrl = loader.getController();
             editCtrl.setService(service);
             editCtrl.setTasksList(tasksList);
             editCtrl.setCurrentTask((Task)mainTable.getSelectionModel().getSelectedItem());
+            editCtrl.setShouldEdit(((Button) source).getId().equals("btnEdit"));
             editNewStage.setScene(new Scene(root, 600, 350));
             editNewStage.setResizable(false);
             editNewStage.initOwner(Main.primaryStage);
@@ -130,14 +131,27 @@ public class Controller {
     }
     @FXML
     public void showFilteredTasks(){
-        Date start = getDateFromFilterField(datePickerFrom.getValue(), fieldTimeFrom.getText());
-        Date end = getDateFromFilterField(datePickerTo.getValue(), fieldTimeTo.getText());
+        try {
+            Date start = getDateFromFilterField(datePickerFrom.getValue(), fieldTimeFrom.getText());
+            Date end = getDateFromFilterField(datePickerTo.getValue(), fieldTimeTo.getText());
+            Iterable<Task> filtered =  service.filterTasks(start, end);
 
-        Iterable<Task> filtered =  service.filterTasks(start, end);
-
-        ObservableList<Task> observableTasks = FXCollections.observableList((ArrayList)filtered);
-        tasks.setItems(observableTasks);
-        updateCountLabel(observableTasks);
+            ObservableList<Task> observableTasks = FXCollections.observableList((ArrayList)filtered);
+            tasks.setItems(observableTasks);
+            updateCountLabel(observableTasks);
+        }catch(Exception e){
+            try {
+                Stage stage = new Stage();
+                Parent root = FXMLLoader.load(getClass().getResource("/fxml/field-validator.fxml"));
+                stage.setScene(new Scene(root, 350, 150));
+                stage.setResizable(false);
+                stage.initModality(Modality.APPLICATION_MODAL);
+                stage.show();
+            }
+            catch (IOException ioe){
+                log.error("error loading field-validator.fxml");
+            }
+        }
     }
     private Date getDateFromFilterField(LocalDate localDate, String time){
         Date date = dateService.getDateValueFromLocalDate(localDate);
