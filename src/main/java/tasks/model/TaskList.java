@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-public abstract class TaskList implements Iterable<Task>, Serializable  {
-    public abstract void add(Task task);
-    public abstract boolean remove(Task task);
-    public abstract int size();
-    public abstract Task getTask(int index);
-    public abstract List<Task> getAll();
+public interface TaskList extends Iterable<Task>, Serializable {
+    void add(Task task);
+    boolean remove(Task task);
+    int size();
+    Task getTask(int index);
+    List<Task> getAll();
 
-    public TaskList incoming(Date from, Date to){
+    default TaskList incoming(Date from, Date to){
         TaskList incomingTasks;
         if (this instanceof ArrayTaskList){
             incomingTasks = new ArrayTaskList();

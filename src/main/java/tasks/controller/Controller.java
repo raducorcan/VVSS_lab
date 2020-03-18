@@ -13,6 +13,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
+import tasks.model.ArrayTaskList;
 import tasks.model.Task;
 import tasks.services.DateService;
 import tasks.services.TaskIO;
@@ -110,6 +111,11 @@ public class Controller {
     public void deleteTask(){
         Task toDelete = (Task)tasks.getSelectionModel().getSelectedItem();
         tasksList.remove(toDelete);
+        ArrayTaskList temp = new ArrayTaskList();
+        for(Task el: tasksList){
+            temp.add(el);
+        }
+        service.setTasks(temp);
         TaskIO.rewriteFile(tasksList);
     }
     @FXML

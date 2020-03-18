@@ -46,7 +46,7 @@ public class Notificator extends Thread {
 
             }
             try {
-                Thread.sleep(MILLISECONDS_IN_SEC * SECONDS_IN_MIN);
+                Thread.sleep(MILLISECONDS_IN_SEC * (long) SECONDS_IN_MIN);
 
             } catch (InterruptedException e) {
                 log.error("thread interrupted exception");
@@ -58,7 +58,7 @@ public class Notificator extends Thread {
     public static void showNotification(Task task) {
         log.info("push notification showing");
         Platform.runLater(() ->
-            Notifications.create().title("Task reminder").text("It's time for " + task.getTitle()).showInformation()
+                Notifications.create().title("Task reminder").text("It's time for " + task.getTitle()).showInformation()
         );
     }
 

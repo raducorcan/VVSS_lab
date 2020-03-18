@@ -18,7 +18,7 @@ import java.io.IOException;
 
 
 public class Main extends Application {
-    public static Stage primaryStage;
+    public static final Stage primaryStage = null;
     private static final int DEFAULT_WIDTH = 820;
     private static final int DEFAULT_HEIGHT = 520;
 
@@ -29,8 +29,6 @@ public class Main extends Application {
     private static ClassLoader classLoader = Main.class.getClassLoader();
     public static final File savedTasksFile = new File(classLoader.getResource("data/tasks.txt").getFile());
 
-    private TasksService service = new TasksService(savedTasksList);
-
     @Override
     public void start(Stage primaryStage) throws Exception {
 
@@ -39,12 +37,12 @@ public class Main extends Application {
         if (savedTasksFile.length() != 0) {
             TaskIO.readBinary(savedTasksList, savedTasksFile);
         }
+        TasksService service = new TasksService(savedTasksList);
         try {
             log.info("application start");
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/main.fxml"));
             Parent root = loader.load();
             Controller ctrl= loader.getController();
-            service = new TasksService(savedTasksList);
 
             ctrl.setService(service);
             primaryStage.setTitle("Task Manager");
@@ -54,7 +52,6 @@ public class Main extends Application {
             primaryStage.show();
         }
         catch (IOException e){
-            e.printStackTrace();
             log.error("error reading main.fxml");
         }
         primaryStage.setOnCloseRequest(we ->

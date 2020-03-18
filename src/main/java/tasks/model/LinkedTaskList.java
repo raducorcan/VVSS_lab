@@ -4,6 +4,7 @@ package tasks.model;
 
 import org.apache.log4j.Logger;
 
+import java.io.Serializable;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.NoSuchElementException;
 
 import static java.util.Objects.isNull;
 
-public class LinkedTaskList  extends TaskList {
+public class LinkedTaskList implements TaskList {
     private static final Logger log = Logger.getLogger(LinkedTaskList.class.getName());
     private class LinkedTaskListIterator implements Iterator<Task>{
         private int cursor;
@@ -109,7 +110,7 @@ public class LinkedTaskList  extends TaskList {
         return new LinkedTaskListIterator();
     }
 
-    private static class Node {
+    private static class Node implements Serializable {
         private Task task;
         private Node last;
         private Node next;

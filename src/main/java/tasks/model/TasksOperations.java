@@ -1,27 +1,28 @@
 package tasks.model;
 
 import javafx.collections.ObservableList;
+import org.apache.log4j.Logger;
 
 import java.util.*;
 
 public class TasksOperations {
 
-    public List<Task> tasks;
+    protected static final List<Task> tasks = new ArrayList<>();
+    private static final Logger log = Logger.getLogger(TasksOperations.class.getName());
 
     public TasksOperations(ObservableList<Task> tasksList){
-        tasks=new ArrayList<>();
         tasks.addAll(tasksList);
     }
 
     public Iterable<Task> incoming(Date start, Date end){
-        System.out.println(start);
-        System.out.println(end);
+        log.info(start);
+        log.info(end);
         ArrayList<Task> incomingTasks = new ArrayList<>();
         for (Task t : tasks) {
             Date nextTime = t.nextTimeAfter(start);
             if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
                 incomingTasks.add(t);
-                System.out.println(t.getTitle());
+                log.info(t.getTitle());
             }
         }
         return incomingTasks;

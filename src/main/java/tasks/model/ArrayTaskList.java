@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 import java.util.*;
 
 
-public class ArrayTaskList extends TaskList{
+public class ArrayTaskList implements TaskList{
 
     private Task[] tasks;
     private int numberOfTasks;

@@ -17,11 +17,8 @@ public class Task implements Serializable, Cloneable {
     private boolean active;
 
     private static final Logger log = Logger.getLogger(Task.class.getName());
-    private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+    private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm");
 
-    public static SimpleDateFormat getDateFormat(){
-        return sdf;
-    }
     public Task(String title, Date time){
         if (time.getTime() < 0) {
             log.error("time below bound");

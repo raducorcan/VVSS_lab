@@ -63,3 +63,66 @@
 2020-03-16 17:26:26 INFO  Main:38 - saved data reading
 2020-03-16 17:26:26 INFO  Main:43 - application start
 2020-03-16 17:26:27 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:11:14 INFO  Main:38 - saved data reading
+2020-03-18 12:11:14 INFO  Main:43 - application start
+2020-03-18 12:11:15 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:11:22 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:14:55 INFO  Main:38 - saved data reading
+2020-03-18 12:14:55 INFO  Main:43 - application start
+2020-03-18 12:14:55 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:15:08 INFO  Main:38 - saved data reading
+2020-03-18 12:15:08 INFO  Main:43 - application start
+2020-03-18 12:15:09 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:17:45 INFO  Main:38 - saved data reading
+2020-03-18 12:17:45 INFO  Main:43 - application start
+2020-03-18 12:17:45 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:17:53 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:18:25 INFO  Main:38 - saved data reading
+2020-03-18 12:18:25 INFO  Main:43 - application start
+2020-03-18 12:18:26 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:19:30 INFO  Main:38 - saved data reading
+2020-03-18 12:19:30 INFO  Main:43 - application start
+2020-03-18 12:19:30 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:19:43 INFO  Notificator:59 - push notification showing
+2020-03-18 12:32:38 INFO  Main:38 - saved data reading
+2020-03-18 12:32:38 INFO  Main:43 - application start
+2020-03-18 12:32:39 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:32:44 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:34:57 INFO  Main:38 - saved data reading
+2020-03-18 12:34:57 INFO  Main:43 - application start
+2020-03-18 12:34:57 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:35:02 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:35:04 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:35:33 INFO  Main:38 - saved data reading
+2020-03-18 12:35:33 INFO  Main:43 - application start
+2020-03-18 12:35:33 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:35:36 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:36:11 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:36:28 INFO  Main:38 - saved data reading
+2020-03-18 12:36:28 INFO  Main:43 - application start
+2020-03-18 12:36:28 INFO  Controller:75 - Main controller initializing
+2020-03-18 12:38:07 INFO  Main:38 - saved data reading
+2020-03-18 12:38:07 INFO  Main:43 - application start
+2020-03-18 12:38:08 INFO  Controller:76 - Main controller initializing
+2020-03-18 12:38:12 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:38:49 INFO  TaskInfoController:26 - task info window initializing
+2020-03-18 12:38:49 ERROR Controller:135 - error loading task-info.fxml
+2020-03-18 12:38:51 INFO  TaskInfoController:26 - task info window initializing
+2020-03-18 12:39:40 INFO  Main:38 - saved data reading
+2020-03-18 12:39:57 INFO  Main:43 - application start
+2020-03-18 12:40:06 INFO  Controller:76 - Main controller initializing
+2020-03-18 12:40:16 INFO  Main:38 - saved data reading
+2020-03-18 12:40:16 INFO  Main:43 - application start
+2020-03-18 12:40:17 INFO  Controller:76 - Main controller initializing
+2020-03-18 12:40:21 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:40:24 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:40:26 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:40:28 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:40:30 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:40:31 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:40:34 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:40:36 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:40:37 INFO  NewEditController:98 - new/edit window initializing
+2020-03-18 12:48:46 INFO  Main:36 - saved data reading
+2020-03-18 12:48:46 INFO  Main:42 - application start
+2020-03-18 12:48:47 INFO  Controller:76 - Main controller initializing
