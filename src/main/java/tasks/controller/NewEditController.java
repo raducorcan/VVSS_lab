@@ -144,18 +144,30 @@ public class NewEditController {
         fieldInterval.setText(DEFAULT_INTERVAL_TIME);
     }
 
-    @FXML
-    public void saveChanges(){
-        Task collectedFieldsTask = collectFieldsData();
+    public void addTask(String title, Date startDate, Date endDate, int interval, boolean isActive){
         if (incorrectInputMade) return;
+        Task task;
+        if(title.length() > 50){
+            throw new RuntimeException("Title too long!");
+        }
+        if(interval == 0) { //one time task
+            task = new Task(title, startDate);
+            task.setActive(isActive);
+        } else {
+            if (interval < 0){
+                throw new RuntimeException("Invalid interval");
+            }
+            task = new Task(title, startDate, endDate, interval);
+            task.setActive(isActive);
+        }
 
         if (!shouldEdit){//no task was chosen -> add button was pressed
-            tasksList.add(collectedFieldsTask);
+            tasksList.add(task);
         }
         else {
             for (int i = 0; i < tasksList.size(); i++){
                 if (currentTask.equals(tasksList.get(i))){
-                    tasksList.set(i,collectedFieldsTask);
+                    tasksList.set(i,task);
                 }
             }
             currentTask = null;
@@ -166,18 +178,38 @@ public class NewEditController {
             temp.add(el);
         }
         service.setTasks(temp);
-        Controller.editNewStage.close();
+        try {
+            Controller.editNewStage.close();
+        }catch (Throwable th){}
+    }
+
+    @FXML
+    public void saveChanges(){
+        try {
+            collectFieldsData();
+        }catch(RuntimeException exc){
+            try {
+                Stage stage = new Stage();
+                Parent root = FXMLLoader.load(getClass().getResource("/fxml/field-validator.fxml"));
+                stage.setScene(new Scene(root, 350, 150));
+                stage.setResizable(false);
+                stage.initModality(Modality.APPLICATION_MODAL);
+                stage.show();
+            }
+            catch (IOException ioe){
+                log.error("error loading field-validator.fxml");
+            }
+        }
     }
     @FXML
     public void closeDialogWindow(){
         Controller.editNewStage.close();
     }
 
-    private Task collectFieldsData(){
+    private void collectFieldsData(){
         incorrectInputMade = false;
-        Task result = null;
         try {
-            result = makeTask();
+            makeTask();
         }
         catch (RuntimeException e){
             incorrectInputMade = true;
@@ -193,10 +225,9 @@ public class NewEditController {
                 log.error("error loading field-validator.fxml");
             }
         }
-        return result;
     }
-    private Task makeTask(){
-        Task result;
+
+    private void makeTask(){
         String newTitle = fieldTitle.getText();
         Date startDateWithNoTime = dateService.getDateValueFromLocalDate(datePickerStart.getValue());//ONLY date!!without time
         Date newStartDate = dateService.getDateMergedWithTime(txtFieldTimeStart.getText(), startDateWithNoTime);
@@ -205,15 +236,11 @@ public class NewEditController {
             Date newEndDate = dateService.getDateMergedWithTime(txtFieldTimeEnd.getText(), endDateWithNoTime);
             int newInterval = service.parseFromStringToSeconds(fieldInterval.getText());
             if (newStartDate.after(newEndDate)) throw new IllegalArgumentException("Start date should be before end");
-            result = new Task(newTitle, newStartDate,newEndDate, newInterval);
+            addTask(newTitle, newStartDate, newEndDate, newInterval, checkBoxActive.isSelected());
         }
         else {
-            result = new Task(newTitle, newStartDate);
+            addTask(newTitle, newStartDate, newStartDate, 0, checkBoxActive.isSelected());
         }
-        boolean isActive = checkBoxActive.isSelected();
-        result.setActive(isActive);
-        log.info(result);
-        return result;
     }
 
 
