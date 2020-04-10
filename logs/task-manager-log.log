@@ -134,3 +134,428 @@
 2020-03-29 19:11:30 INFO  Main:42 - application start
 2020-03-29 19:11:31 INFO  Controller:76 - Main controller initializing
 2020-03-29 19:11:34 INFO  NewEditController:98 - new/edit window initializing
+2020-04-09 17:58:03 INFO  Main:36 - saved data reading
+2020-04-09 17:58:03 INFO  Main:42 - application start
+2020-04-09 17:58:03 INFO  Controller:76 - Main controller initializing
+2020-04-09 17:58:41 INFO  NewEditController:98 - new/edit window initializing
+2020-04-09 17:58:50 INFO  NewEditController:98 - new/edit window initializing
+2020-04-09 17:59:03 INFO  NewEditController:98 - new/edit window initializing
+2020-04-09 17:59:41 INFO  NewEditController:98 - new/edit window initializing
+2020-04-09 18:00:19 INFO  TasksOperations:18 - Thu Apr 09 10:00:00 EEST 2020
+2020-04-09 18:00:19 INFO  TasksOperations:19 - Thu Apr 09 10:50:00 EEST 2020
+2020-04-09 18:02:49 INFO  TaskInfoController:26 - task info window initializing
+2020-04-09 18:12:56 INFO  Main:36 - saved data reading
+2020-04-09 18:12:56 INFO  Main:42 - application start
+2020-04-09 18:12:57 INFO  Controller:76 - Main controller initializing
+2020-04-09 18:13:11 INFO  TasksOperations:18 - Thu Apr 09 10:00:00 EEST 2020
+2020-04-09 18:13:11 INFO  TasksOperations:19 - Thu Apr 09 09:00:00 EEST 2020
+2020-04-09 18:42:51 INFO  Main:36 - saved data reading
+2020-04-09 18:42:51 INFO  Main:42 - application start
+2020-04-09 18:42:51 INFO  Controller:76 - Main controller initializing
+2020-04-09 18:43:25 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 18:43:25 INFO  TasksOperations:19 - Thu Apr 09 02:00:00 EEST 2020
+2020-04-09 18:45:38 INFO  Main:36 - saved data reading
+2020-04-09 18:45:38 INFO  Main:42 - application start
+2020-04-09 18:45:38 INFO  Controller:76 - Main controller initializing
+2020-04-09 18:46:05 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 18:46:05 INFO  TasksOperations:19 - Wed Apr 08 22:00:00 EEST 2020
+2020-04-09 18:53:39 INFO  TasksOperations:26 - t3
+2020-04-09 18:53:50 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 18:53:50 INFO  TasksOperations:19 - Wed Apr 08 10:20:00 EEST 2020
+2020-04-09 18:53:52 INFO  TasksOperations:26 - t3
+2020-04-09 18:53:52 INFO  TasksOperations:26 - t3
+2020-04-09 18:54:01 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 18:54:01 INFO  TasksOperations:19 - Wed Apr 08 10:20:00 EEST 2020
+2020-04-09 18:54:03 INFO  TasksOperations:26 - t3
+2020-04-09 18:54:03 INFO  TasksOperations:26 - t3
+2020-04-09 18:54:03 INFO  TasksOperations:26 - t3
+2020-04-09 18:54:08 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 18:54:08 INFO  TasksOperations:19 - Wed Apr 08 10:20:00 EEST 2020
+2020-04-09 18:54:10 INFO  TasksOperations:26 - t3
+2020-04-09 18:54:10 INFO  TasksOperations:26 - t3
+2020-04-09 18:54:10 INFO  TasksOperations:26 - t3
+2020-04-09 18:54:10 INFO  TasksOperations:26 - t3
+2020-04-09 18:58:18 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 18:58:18 INFO  TasksOperations:19 - Wed Apr 08 10:20:00 EEST 2020
+2020-04-09 18:58:22 INFO  TasksOperations:26 - t3
+2020-04-09 18:58:22 INFO  TasksOperations:26 - t3
+2020-04-09 18:58:22 INFO  TasksOperations:26 - t3
+2020-04-09 18:58:22 INFO  TasksOperations:26 - t3
+2020-04-09 18:58:22 INFO  TasksOperations:26 - t3
+2020-04-09 19:00:39 INFO  Main:36 - saved data reading
+2020-04-09 19:00:39 INFO  Main:42 - application start
+2020-04-09 19:00:40 INFO  Controller:76 - Main controller initializing
+2020-04-09 19:00:55 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:00:55 INFO  TasksOperations:19 - Wed Apr 08 10:20:00 EEST 2020
+2020-04-09 19:00:59 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:00:59 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:00:59 INFO  TasksOperations:26 - t3
+2020-04-09 19:00:59 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:02 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:02 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:02 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:02 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:02 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:02 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:02 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:02 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:02 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:02 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:02 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:03 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:04 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:05 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:01:08 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:01:08 INFO  TasksOperations:26 - t3
+2020-04-09 19:05:22 INFO  Main:36 - saved data reading
+2020-04-09 19:05:22 INFO  Main:42 - application start
+2020-04-09 19:05:23 INFO  Controller:76 - Main controller initializing
+2020-04-09 19:06:32 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:06:32 INFO  TasksOperations:19 - Wed Apr 08 10:20:00 EEST 2020
+2020-04-09 19:13:09 INFO  Main:36 - saved data reading
+2020-04-09 19:13:09 INFO  Main:42 - application start
+2020-04-09 19:13:10 INFO  Controller:76 - Main controller initializing
+2020-04-09 19:14:16 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:14:16 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:14:20 INFO  TasksOperations:26 - t3
+2020-04-09 19:15:31 INFO  TasksOperations:18 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:15:31 INFO  TasksOperations:19 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:15:33 INFO  TasksOperations:26 - t3
+2020-04-09 19:15:33 INFO  TasksOperations:26 - t3
+2020-04-09 19:16:36 INFO  Main:36 - saved data reading
+2020-04-09 19:16:36 INFO  Main:42 - application start
+2020-04-09 19:16:37 INFO  Controller:76 - Main controller initializing
+2020-04-09 19:16:51 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:51 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:51 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:52 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:52 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:52 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:52 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:52 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:52 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:52 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:52 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:52 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:53 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:53 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:53 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:53 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:53 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:53 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:53 INFO  TasksOperations:27 - t3
+2020-04-09 19:16:57 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:16:57 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 19:16:57 INFO  TasksOperations:27 - t3
+2020-04-09 19:17:01 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:17:01 INFO  TasksOperations:20 - Wed Apr 08 10:40:00 EEST 2020
+2020-04-09 19:17:01 INFO  TasksOperations:27 - t3
+2020-04-09 19:17:05 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-09 19:17:05 INFO  TasksOperations:20 - Wed Apr 08 10:30:00 EEST 2020
+2020-04-09 20:06:28 INFO  Main:36 - saved data reading
+2020-04-09 20:06:28 INFO  Main:42 - application start
+2020-04-09 20:06:28 INFO  Controller:76 - Main controller initializing
+2020-04-09 20:06:45 INFO  TasksOperations:19 - Wed Apr 08 10:12:00 EEST 2020
+2020-04-09 20:06:45 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-09 20:06:45 INFO  TasksOperations:28 - t3
+2020-04-09 20:06:49 INFO  TasksOperations:19 - Wed Apr 08 10:12:00 EEST 2020
+2020-04-09 20:06:49 INFO  TasksOperations:20 - Wed Apr 08 10:39:00 EEST 2020
+2020-04-10 13:10:27 INFO  Main:36 - saved data reading
+2020-04-10 13:10:27 INFO  Main:42 - application start
+2020-04-10 13:10:28 INFO  Controller:76 - Main controller initializing
+2020-04-10 13:10:48 INFO  TasksOperations:19 - Wed Apr 08 10:15:00 EEST 2020
+2020-04-10 13:10:48 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-10 13:10:48 INFO  TasksOperations:28 - t3
+2020-04-10 13:10:51 INFO  TasksOperations:19 - Wed Apr 08 10:10:00 EEST 2020
+2020-04-10 13:10:51 INFO  TasksOperations:20 - Wed Apr 08 10:44:00 EEST 2020
+2020-04-10 13:10:51 INFO  TasksOperations:28 - t3
+2020-04-10 13:11:00 INFO  TasksOperations:19 - Wed Apr 08 10:10:00 EEST 2020
+2020-04-10 13:11:00 INFO  TasksOperations:20 - Wed Apr 08 10:39:00 EEST 2020
+2020-04-10 13:11:00 INFO  TasksOperations:28 - t3
+2020-04-10 13:11:03 INFO  TasksOperations:19 - Wed Apr 08 10:19:00 EEST 2020
+2020-04-10 13:11:03 INFO  TasksOperations:20 - Wed Apr 08 10:39:00 EEST 2020

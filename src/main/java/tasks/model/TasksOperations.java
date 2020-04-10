@@ -7,10 +7,11 @@ import java.util.*;
 
 public class TasksOperations {
 
-    protected static final List<Task> tasks = new ArrayList<>();
+    protected static List<Task> tasks;
     private static final Logger log = Logger.getLogger(TasksOperations.class.getName());
 
     public TasksOperations(ObservableList<Task> tasksList){
+        tasks = new ArrayList<>();
         tasks.addAll(tasksList);
     }
 
@@ -18,8 +19,10 @@ public class TasksOperations {
         log.info(start);
         log.info(end);
         ArrayList<Task> incomingTasks = new ArrayList<>();
+
         for (Task t : tasks) {
-            Date nextTime = t.nextTimeAfter(start);
+            if (!t.isActive()) continue;
+            Date nextTime = t.nextTimeAfter(start); //is null if start is before start of task
             if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
                 incomingTasks.add(t);
                 log.info(t.getTitle());
