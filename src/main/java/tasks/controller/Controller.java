@@ -38,7 +38,7 @@ public class Controller {
     public static TableView mainTable;
 
     @FXML
-    public  TableView tasks;
+    public  TableView tasksTbl;
     @FXML
     private TableColumn<Task, String> columnTitle;
     @FXML
@@ -61,12 +61,12 @@ public class Controller {
         this.dateService=new DateService(service);
         this.tasksList=service.getObservableList();
         updateCountLabel(tasksList);
-        tasks.setItems(tasksList);
-        mainTable = tasks;
+        tasksTbl.setItems(tasksList);
+        mainTable = tasksTbl;
 
         tasksList.addListener((ListChangeListener.Change<? extends Task> c) -> {
                     updateCountLabel(tasksList);
-                    tasks.setItems(tasksList);
+                    tasksTbl.setItems(tasksList);
                 }
         );
     }
@@ -109,7 +109,7 @@ public class Controller {
     }
     @FXML
     public void deleteTask(){
-        Task toDelete = (Task)tasks.getSelectionModel().getSelectedItem();
+        Task toDelete = (Task) tasksTbl.getSelectionModel().getSelectedItem();
         tasksList.remove(toDelete);
         ArrayTaskList temp = new ArrayTaskList();
         for(Task el: tasksList){
@@ -143,7 +143,7 @@ public class Controller {
             Iterable<Task> filtered =  service.filterTasks(start, end);
 
             ObservableList<Task> observableTasks = FXCollections.observableList((ArrayList)filtered);
-            tasks.setItems(observableTasks);
+            tasksTbl.setItems(observableTasks);
             updateCountLabel(observableTasks);
         }catch(Exception e){
             try {
@@ -165,7 +165,7 @@ public class Controller {
     }
     @FXML
     public void resetFilteredTasks(){
-        tasks.setItems(tasksList);
+        tasksTbl.setItems(tasksList);
 
     }
 
