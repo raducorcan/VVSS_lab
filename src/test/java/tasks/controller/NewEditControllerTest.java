@@ -1,7 +1,6 @@
 package tasks.controller;
 
 import javafx.collections.ObservableList;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -11,7 +10,6 @@ import tasks.model.Task;
 import tasks.services.TasksService;
 
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.Random;
 import java.util.stream.Stream;
