@@ -89,11 +89,10 @@ class NewEditControllerTest {
         }
     }
 
-    @ParameterizedTest
-    @ValueSource(ints = {0, 1})
-    void addTask_BVA_Interval_Valid(int interval) {
+    @Test
+    void addTask_BVA_Interval_Valid() {
         try {
-            ctrl.addTask("mytask", new Date(), new Date(), interval, true);
+            ctrl.addTask("mytask", new Date(), new Date(), 1, true);
             assert (true);
         } catch (RuntimeException exc) {
             assert (false);
