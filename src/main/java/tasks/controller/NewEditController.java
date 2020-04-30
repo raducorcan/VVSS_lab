@@ -184,7 +184,7 @@ public class NewEditController {
 
     void addTask(String title, Date startDate, Date endDate, int interval, boolean isActive) {
         Task tmp;
-        if (interval == 0) {
+        if (interval != 0) {
             tmp = new Task(title, startDate, endDate, interval);
         } else {
             tmp = new Task(title, startDate);
